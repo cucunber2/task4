@@ -96,6 +96,10 @@ int main() {
     setlocale(LC_ALL, "Russian");
     task(3, 4, 5);
     test.out_stream_to_be("Type=Right Perimeter=12 Square=6\n");
+    task(9,5,6);
+    test.out_stream_to_be("Type=Obtuse Perimeter=20 Square=14.1421\n");
+    task(8, 5, 9);
+    test.out_stream_to_be("Type=Acute Perimeter=22 Square=19.8997\n");
     task(0, 1, 2);
     test.out_stream_to_be("Не треугольник");
     task(0, 0, 2);
